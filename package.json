@@ -1,0 +1,24 @@
+{
+    "name": "ticket-booking-system",
+    "version": "1.0.0",
+    "description": "Concurrent Ticket Booking System with Seat Locking and Confirmation",
+    "main": "src/app.js",
+    "scripts": {
+      "start": "node src/app.js",
+      "test-concurrent": "node test/concurrentTest.js"
+    },
+    "keywords": [
+      "nodejs",
+      "express",
+      "ticket",
+      "booking",
+      "seat-locking"
+    ],
+    "author": "Ankit Raj",
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "axios": "^1.4.0"
+    }
+  }
+  
